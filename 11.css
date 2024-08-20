@@ -52,16 +52,19 @@
        /*cor da letra*/
    }
 
-header nav ul li:hover { /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
-   color:white;
-   transition: 1s;
-}
+   header nav ul li:hover {
+       /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
+       color: white;
+       transition: 1s;
+   }
 
-header nav ul li a:hover { /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
-background-color: brown;
-transition: 1s;
-} 
-/* qndo for trabalhar com o hover, trabalha com o transition */
+   header nav ul li a:hover {
+       /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
+       background-color: brown;
+       transition: 1s;
+   }
+
+   /* qndo for trabalhar com o hover, trabalha com o transition */
 
    .section-01 {
        padding: 300px;
@@ -93,14 +96,20 @@ transition: 1s;
        /*cor do fundo*/
    }
 
-   /*usando esse ngc, qndo passar o mouse no butoon, ele vai mudar de cor*/
-   .section-01 button:hover { /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
-    background-color: #fbea80; /*cor de dentro do botão*/
-    transition: 1s; /* usado p cor do botão demorar a aparecer*/
-    color: white; /*qndo passar o mouse, ele vai alterar a cor da caixinha*/
-    cursor: pointer; /*muda o ngc do mouse, da setinha ele vai p maozinha*/
+   /*usando o hover, qndo passar o mouse no butoon, ele vai mudar de cor*/
+   /* o último elemento do caminho da rota é o elemento q a gnt vai mexer */
+   .section-01 button:hover {
+       /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
+       background-color: #fbea80;
+       /*cor de dentro do botão*/
+       transition: 1s;
+       /* usado p cor do botão demorar a aparecer (transição)*/
+       color: white;
+       /*qndo passar o mouse, ele vai alterar a cor da caixinha*/
+       cursor: pointer;
+       /*muda o ngc do mouse, da setinha ele vai p maozinha (não é necessário)*/
    }
-   
+
    .section-02 {
        padding: 250px;
        background-color: #fbea80;
@@ -119,10 +128,14 @@ transition: 1s;
    }
 
    /*usado p aumentar a imagem*/
-   .section-02 img:hover { /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
-    width: 370px; /*tamanho da imagem*/
-    transition: 1s; /*tmp demorado p ngc aparecer (transição*/
-    cursor: pointer; /*muda o ngc do mouse, da setinha ele vai p maozinha*/
+   .section-02 img:hover {
+       /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
+       width: 370px;
+       /*tamanho da imagem*/
+       transition: 1s;
+       /*tmp demorado p ngc aparecer (transição*/
+       cursor: pointer;
+       /*muda o ngc do mouse, da setinha ele vai p maozinha*/
    }
 
    .section-02 h2 {
@@ -193,7 +206,7 @@ transition: 1s;
    .section-03 h2 {
        display: flex;
        /*dxa sessão flex*/
-       justify-content: center; 
+       justify-content: center;
        /*justifica do conteúdo*/
        color: black;
        /*cor da letra*/
@@ -227,7 +240,70 @@ transition: 1s;
    }
 
    /*usado p mudar a cor da lista*/
-   footer  nav ul li a:hover { /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
-    background-color: blue; 
-    transition: 1s;
-   } 
+   footer nav ul li a:hover {
+       /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
+       background-color: blue;
+       transition: 1s;
+   }
+
+
+   header i {
+       /*estilização ícone*/
+       color: white;
+       /*color - cor do ícone*/
+       font-size: 40px;
+       /*font-size - tamanho do ícone*/
+       background-color: gray;
+       /*cor do fundo do elemento*/
+       padding: 15px;
+       /*preenchimento da cor de fundo*/
+       border-radius: 10px;
+       /*arredondamento da caixa*/
+   }
+
+   header i:hover {
+       /*aplicando o efeito ao passar o mouse*/
+       background-color: blueviolet;
+       /*cor do fundo alterada*/
+       transition: 0.7s;
+       /*transição do elemento*/
+   }
+
+
+
+
+
+   /* ESTILIZAÇÃO TELA 2 */
+
+   .section-tela2 {
+       background-image: url(imagens/sunflower-832793_1280.jpg);
+       padding: 350px;
+       background-position: bottom;
+       background-repeat: no-repeat;
+       background-size: cover;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+
+   .section-tela2 p {
+       font-size: 25px;
+       color: white;
+       font-weight: 700;
+       background-color: gray;
+   }
+
+
+   .section-tela2 span {
+       color: #fbea80;
+       font-weight: bold;
+   }
+
+   .section-20 {
+       background-color: rgb(166, 166, 38);
+       padding: 100px;
+   }
+
+   .section-30 {
+       background-color: #fbea80;
+       padding: 100px;
+   }
