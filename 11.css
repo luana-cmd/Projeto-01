@@ -112,6 +112,7 @@
 
    .section-02 {
        padding: 250px;
+       /*tamanho da sessão*/
        background-color: #fbea80;
        /*cor do fundo*/
        display: flex;
@@ -155,6 +156,7 @@
 
    .section-03 {
        padding: 250px;
+       /*tamanho da sessão*/
        background-image: url(imagens/flower-1754823_1920.jpg);
        background-repeat: no-repeat;
        /*repetição da imagem*/
@@ -185,11 +187,15 @@
 
    .section-03 {
        padding: 250px;
+       /*tamanho da sessão*/
        background-image: url(imagens/flower-1754823_1920.jpg);
+       /*imagem*/
        background-repeat: no-repeat;
+       /*repetição da imagem*/
        background-size: cover;
        background-attachment: fixed;
        background-position: center;
+       /*posição da imagem*/
    }
 
    .section-03 p {
@@ -217,11 +223,13 @@
 
    footer {
        padding: 25px;
+       /*tamanho da sessão*/
        background-color: #fbea80;
    }
 
    footer nav ul {
        display: flex;
+       /*dxa os ngc lado a lado*/
        justify-content: center;
    }
 
@@ -244,6 +252,7 @@
        /*o hover permite que o elemento na qual está trabalhando tenha alguma ação ao passar o mouse*/
        background-color: blue;
        transition: 1s;
+       /*transição*/
    }
 
 
@@ -262,7 +271,7 @@
    }
 
    header i:hover {
-       /*aplicando o efeito ao passar o mouse*/
+       /* hover - aplicando o efeito ao passar o mouse*/
        background-color: blueviolet;
        /*cor do fundo alterada*/
        transition: 0.7s;
@@ -278,10 +287,14 @@
    .section-tela2 {
        background-image: url(imagens/sunflower-832793_1280.jpg);
        padding: 350px;
+       /*tamanho da sessão*/
        background-position: bottom;
+       /*posção da imagem*/
        background-repeat: no-repeat;
+       /*repetição da imagem*/
        background-size: cover;
        font-family: Georgia, 'Times New Roman', Times, serif;
+       /*fonte*/
    }
 
 
@@ -299,11 +312,209 @@
    }
 
    .section-20 {
-       background-color: rgb(166, 166, 38);
-       padding: 70px;
+       padding: 130px;
+       /*preenchimento da sessão*/
+       background: linear-gradient(190deg #9b0b47, #1a0cdb 8.33%, #3b71e6 100%);
+       /*cor de fundo*/
+   }
+
+
+   /* div pai - dentro dele existe 3 caixas */
+   .div-pai {
+       display: flex;
+       /*tornando os itens flex, deixando as caixas lado a lado*/
+       justify-content: center;
+       /*justificando os itens ao centro*/
+       margin-bottom: 30px;
+       /*espaçamento entre as div */
+   }
+
+
+   /* estiização das caixas (div filho) */
+   .div-pai div {
+       width: 150px;
+       /*largura da caixa*/
+       height: 250px;
+       /*altura da caixa*/
+       background-color: black;
+       /* cor de fundo */
+       margin-left: 40px;
+       /* espaçamento entre as caixas*/
+       border-radius: 10px;
+       /*arredondamento da borda*/
+   }
+
+   .div-pai .div-filho1 {
+       background-image: url(imagens/flower-4476373_1280.jpg);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+   .div-pai .div-filho1:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
+   }
+
+
+   .div-pai .div-filho2 {
+       background-image: url(imagens/sunflower-1621990_1280.jpg);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+
+   .div-pai .div-filho2:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
+   }
+
+   .div-pai .div-filho3 {
+       background-image: url(imagens/sunflower-8396488_1280.jpg);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+   .div-pai .div-filho3:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
+   }
+
+   /* div pai - dentro dele existe 3 caixas */
+   .div-pai2 {
+       display: flex;
+       /*tornando os itens flex, deixando as caixas lado a lado*/
+       justify-content: center;
+       /*justificando os itens ao centro*/
+       margin-bottom: 30px;
+       /*espaçamento entre as div*/
+
+   }
+
+   /* estiização das caixas (div filho) */
+   .div-pai2 div {
+       width: 150px;
+       /*largura da caixa*/
+       height: 250px;
+       /*altura da caixa*/
+       background-color: aqua;
+       /*cor de fundo da caixa*/
+       margin-left: 40px;
+       /* espaçamento entre as caixas*/
+       border-radius: 10px;
+       /*arredondamento da borda*/
+   }
+
+
+   .div-pai2 .div-filho4 {
+       background-image: url(imagens/sunflower-4799169_1280.png);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+   .div-pai2 .div-filho4:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
+   }
+
+
+   .div-pai2 .div-filho5 {
+       background-image: url(imagens/sunflower-148705_1280.png);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+   .div-pai2 .div-filho5:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
+   }
+
+
+   .div-pai2 .div-filho6 {
+       background-image: url(imagens/sunflower-3555239_1280.jpg);
+       /*imagem*/
+       background-size: cover;
+       /*faz com que a imagem de fundo cubra toda a area da sessão*/
+       background-position: center;
+       /*posição da imagem*/
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+   }
+
+   .div-pai2 .div-filho6:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       width: 210px;
+       /*largura da caixa*/
+       height: 290px;
+       /*altura da caixa*/
+       transition: 1s;
+       /*transição*/
+       border-radius: 30px;
+       /*arredondamento da borda*/
    }
 
    .section-30 {
        background-color: #fbea80;
+       /*cor de fundo*/
        padding: 70px;
+       /*tamanho da sessão*/
    }
