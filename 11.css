@@ -116,7 +116,7 @@
        background-color: #fbea80;
        /*cor do fundo*/
        display: flex;
-       justify-content: ;
+
        align-items: center;
        /*alinha os itens*/
    }
@@ -312,9 +312,11 @@
    }
 
    .section-20 {
-       padding: 130px;
        /*preenchimento da sessão*/
-       background: linear-gradient(190deg #9b0b47, #1a0cdb 8.33%, #3b71e6 100%);
+       font-size: 15px;
+       align-items: center;
+       padding: 250px;
+       background: linear-gradient(190deg, #1a0cdb 8.33%, #3b71e6 100%);
        /*cor de fundo*/
    }
 
@@ -513,8 +515,44 @@
    }
 
    .section-30 {
-       background-color: #fbea80;
-       /*cor de fundo*/
        padding: 70px;
        /*tamanho da sessão*/
+       background-color: #fbea80;
+       /*cor de fundo*/
+       display: flex;
+       /*dxa os ngc lado a lado*/
+       justify-content: space-between;
+   }
+
+   .div-titulo {
+       color: azure;
+       margin: 30px;
+       /*altera todos os lados ao msm tmp*/
+       font-size: 25px;
+   }
+
+   .div-titulo p {
+       color:black;
+       margin: 30px;
+       font-size: 20px;
+       font-weight: 400 ;
+   }
+
+   .div-iframe iframe {
+    border-radius: 10px;
+    margin-right: 30px;
+   }
+ 
+
+   .rodapé {
+    padding: 100px;
+    background-color:#f1f1c1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+   .div-line img {
+    width: 150px;
+
    }
