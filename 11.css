@@ -94,6 +94,7 @@
        /*arredondamento da borda*/
        background-color: transparent;
        /*cor do fundo*/
+       color: white;
    }
 
    /*usando o hover, qndo passar o mouse no butoon, ele vai mudar de cor*/
@@ -104,7 +105,7 @@
        /*cor de dentro do botão*/
        transition: 1s;
        /* usado p cor do botão demorar a aparecer (transição)*/
-       color: white;
+       color: black;
        /*qndo passar o mouse, ele vai alterar a cor da caixinha*/
        cursor: pointer;
        /*muda o ngc do mouse, da setinha ele vai p maozinha (não é necessário)*/
@@ -122,7 +123,7 @@
    }
 
    .section-02 img {
-       width: 350px;
+       width: 250px;
        /*largura*/
        height: auto;
        /*altura*/
@@ -155,7 +156,7 @@
    }
 
    .section-03 {
-       padding: 250px;
+       padding: 150px;
        /*tamanho da sessão*/
        background-image: url(imagens/flower-1754823_1920.jpg);
        background-repeat: no-repeat;
@@ -282,6 +283,69 @@
 
 
 
+
+
+
+   .rodapé {
+    padding: 100px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.div-line img {
+    width: 30px;
+}
+
+
+.div-line .line {
+    width: 148px;
+    height: 5px;
+    background-color: white;
+    margin-top: 13px;
+
+}
+
+.div-icon a {
+    text-decoration: none;
+    color: beige;
+    font-size: 35px;
+}
+
+.div-icon a i {
+    background-color: dimgray;
+    padding: 7px;
+    font-size: 35px;
+    border-radius: 5px;
+   
+}
+
+.div-icon i:hover {
+    transition: 1s;
+    background-color: red;
+    
+}
+
+.div-icon h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
    /* ESTILIZAÇÃO TELA 2 */
 
    .section-tela2 {
@@ -315,8 +379,8 @@
        /*preenchimento da sessão*/
        font-size: 15px;
        align-items: center;
-       padding: 250px;
-       background: linear-gradient(190deg, #1a0cdb 8.33%, #3b71e6 100%);
+       padding: 150px;
+       background: linear-gradient(190deg, #d2f701 8.33%, #77aa17 100%);
        /*cor de fundo*/
    }
 
@@ -525,34 +589,88 @@
    }
 
    .div-titulo {
-       color: azure;
+       color: rgb(0, 0, 0);
        margin: 30px;
        /*altera todos os lados ao msm tmp*/
        font-size: 25px;
    }
 
    .div-titulo p {
-       color:black;
+       color: black;
        margin: 30px;
        font-size: 20px;
-       font-weight: 400 ;
+       font-weight: 400;
    }
 
    .div-iframe iframe {
-    border-radius: 10px;
-    margin-right: 30px;
+       border-radius: 10px;
+       margin-right: 30px;
    }
- 
+
 
    .rodapé {
-    padding: 100px;
-    background-color:#f1f1c1;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+       padding: 100px;
+       background-color: #f1f1c1;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
    }
 
    .div-line img {
-    width: 150px;
+       width: 150px;
+       /*largura da imagem*/
+   }
 
+   .div-line .line {
+       width: 148px;
+       /*largura da linha*/
+       height: 5px;
+       /*altura da linha*/
+       background-color: white;
+       /*cor de fundo da linha*/
+       margin-top: 13px;
+       /*distancia entre a linha e o ícone */
+   }
+
+   .div-icon a {
+       text-decoration: none;
+       /*aq estamos removendo o estilo padrão da ancora*/
+       color: #f1f1c1;
+       /*cor da ancora*/
+       font-size: 35px;
+   }
+
+   .div-icon a i {
+       /*acessando o icone*/
+       background-color: #27263d;
+       /*atribuindo uma cor de fundo aos icones*/
+       padding: 7px;
+       /*aplicando um respiro dentro dos icones*/
+       font-size: 35px;
+       /*tamanho dos icones*/
+       border-radius: 5px;
+       /*arredondamento da borda*/
+   }
+
+   .div-icon i:hover {
+       /* hover - aplicando o efeito ao passar o mouse*/
+       transition: 1s;
+       /*transição*/
+       background-color: rgb(224, 6, 6);
+       /*atribuindo uma cor de fundo dos icones*/
+   }
+
+   .div-icon h2 {
+       /*estilizando o titulo do rodapé*/
+       color: rgb(19, 18, 18);
+       /*cor da letra*/
+       font-size: 30px;
+       /*tamanho da letra*/
+       margin-bottom: 20px;
+       /*margin inferior em relação o texto*/
+   }
+
+
+   html {
+    scroll-behavior: smooth;
    }
